@@ -10,7 +10,8 @@
     "chart.js": "^4.2.0",
     "chartkick": "^5.0.1",
     "esbuild": "^0.16.12",
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "tabulator-tables": "^5.4.3"
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets",

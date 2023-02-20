@@ -323,6 +323,11 @@ sass@^1.57.1:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
+tabulator-tables@^5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/tabulator-tables/-/tabulator-tables-5.4.3.tgz#78127f263b5bf26d8dc15e1cd2fc6755fe51b8ca"
+  integrity sha512-XnQcfwd2LzHWKAo8ZzUVglKaQnzn3wZwH48ouYr1dDbfUcQiU1ESJjVhmVxPMr9tf0oDcV6qPViEHinAi/tqbw==
+
 to-regex-range@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"

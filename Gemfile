@@ -78,3 +78,4 @@ gem 'dalli'
 gem 'chartkick'
 
 gem 'faker'
+gem 'annotate'
