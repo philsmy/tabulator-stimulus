@@ -6,10 +6,11 @@ class PurchasesController < ApplicationController
   def purchases_data
     @date_filter = params[:date_filter]
 
-    datetime = DateTime.parse(@date_filter) if @date_filter.present?
-
     @purchases = Purchase.all.order(purchased_at: :desc)
-    @purchases = @purchases.where(purchased_at: datetime.beginning_of_day..datetime.end_of_day) if @date_filter.present?
+    if @date_filter.present?
+      datetime = DateTime.parse(@date_filter)
+      @purchases = @purchases.where(purchased_at: datetime.beginning_of_day..datetime.end_of_day)
+    end
 
     respond_to do |format|
       format.html
